@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "くらシフト抽出くん",
+  "version": "1.1",
+  "description": "カレンダーからシフトをICS/TXT/PNG形式で書き出します",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

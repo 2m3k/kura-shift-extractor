@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { width: 180px; padding: 15px; font-family: sans-serif; }
+    .btn { 
+      width: 100%; margin-bottom: 8px; padding: 10px;
+      border: none; border-radius: 5px; cursor: pointer; color: white;
+      font-weight: bold; font-size: 13px;
+    }
+    .btn-ics { background: #dc0000; } /* くら寿司レッド */
+    .btn-txt { background: #2e7d32; } /* LINE/テキスト用グリーン */
+    .btn-img { background: #1976d2; } /* 画像生成用ブルー */
+    .btn:hover { opacity: 0.8; }
+  </style>
+</head>
+<body>
+  <button id="ics" class="btn btn-ics">カレンダー抽出 (.ics)</button>
+  <button id="txt" class="btn btn-txt">LINE用テキスト出力</button>
+  <button id="img" class="btn btn-img">画像として保存 (.png)</button>
+  <script src="popup.js"></script>
+</body>
+</html>
